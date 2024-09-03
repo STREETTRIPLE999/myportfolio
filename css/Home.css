@@ -55,7 +55,7 @@ img {
     transition: all 0.3s;
 }
     img:hover {
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
 
 .introduction {
@@ -88,9 +88,10 @@ img {
     font-size: 1.1em;
     transition: 0.2s all linear;
 }
-.title:hover {
-    color: #ff0000
-}
+    .title:hover {
+        color: #ff0000;
+        transform: translateX(1px);
+    }
     .title::before {
         content: "➡";
         padding-right: 0.5rem;
