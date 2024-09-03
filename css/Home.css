@@ -45,6 +45,18 @@ p {
     margin-bottom: 0.2rem;
 }
 
+img {
+    display: inline-block;
+    margin-right: 1.2rem;
+    margin-top: 0.5rem;
+    width: 120px;
+    height: 100px;
+    border: 1px #ff0000 solid;
+    transition: all 0.3s;
+}
+    img:hover {
+        transform: scale(1.2);
+    }
 
 .introduction {
     color:#101010;
@@ -54,7 +66,7 @@ p {
 
 .product_outer {
     margin-bottom: 3rem;
-    animation: fadeIn 1.2s ease 0s 1 normal;
+    animation: fadeIn 0.8s ease 0s 1 normal;
 }
 @keyframes fadeIn {
     0% {
@@ -67,7 +79,7 @@ p {
 }
 
 .product {
-    margin-bottom: 1rem;
+    margin-bottom: 1.3rem;
     
 }
 
@@ -106,7 +118,9 @@ p {
         display: block;
         margin-top: 0.2rem;
         margin-bottom: 0.2rem;
-        margin-left: 0.2rem;
+        margin-left: 0.5rem;
+        color: #505050;
+        font-size: 0.98em;
     }
 
 
